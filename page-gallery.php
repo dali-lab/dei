@@ -13,7 +13,7 @@ $gallery_cats = isset( $et_ptemplate_settings['et_ptemplate_gallerycats'] ) ? $e
 $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gallery_perpage'] ) ? (int) $et_ptemplate_settings['et_ptemplate_gallery_perpage'] : 12;
 ?>
 
-<?php get_header(); ?>
+<!-- <?php get_header(); ?> -->
 
 <div id="main-content"<?php if ($fullwidth) echo ' class="fullwidth"'; ?>>
 	<div class="container clearfix">
