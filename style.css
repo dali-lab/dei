@@ -131,7 +131,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					ul#main-tabs strong { text-transform: uppercase; color: #555555; font-weight: bold; text-shadow: 1px 1px 1px #fff; font-size: 21px; letter-spacing: -1px; }
 					ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1px 1px 1px #fff; letter-spacing: -1px; /*width:130px;*/ line-height: 5px;}
 		.tab-slide { padding-top: 46px; }
-			.tab-slide h3.title { font-size: 300px; color: #555555; padding-bottom: 12px; }
+			.tab-slide h3.title { font-size: 48px; color: #555555; padding-bottom: 12px; }
 			.thumbnail { display:block; float:left; padding:4px; position:relative; margin-right: 20px; margin-top: 4px; width: 164px; height: 186px; }
 				.thumbnail span.overlay2 { background:url(images/box-overlay2.png) no-repeat;
 display:block; height:186px; left:-2px; position:absolute; top:-1px; width:172px; }
@@ -161,17 +161,7 @@ display:block; height:29px; padding-left: 15px; }
 							p.post-meta a { color: #686868; }
 							p.post-meta a:hover { color: #000; text-decoration: none; }
 
-	#breadcrumbs { color: #686868; font-family: Georgia, serif; font-style: italic; font-weight: bold; }
-		#breadcrumbs a, #breadcrumbs span.raquo { display: block; float: left; }
-		#breadcrumbs a { color: #b6b6b6; font-weight: normal; }
-			#breadcrumbs a:hover { color: #000; text-decoration: none; }
-		#breadcrumbs span.raquo { background: url(images/breadcrumbs-separator.png) no-repeat; text-indent: -9999px; width: 34px; margin: 0 2px; }
-
-		#breadcrumbs-left, #breadcrumbs-content, #breadcrumbs-right { float: left; height: 35px; }
-		#breadcrumbs-left { background: url(images/breadcrumbs-left.png) no-repeat; width: 33px; }
-		#breadcrumbs-content { background: url(images/breadcrumbs-bg.png) repeat-x; line-height: 32px; padding: 0 3px; }
-		#breadcrumbs-right { background: url(images/breadcrumbs-right.png) no-repeat; width: 35px; }
-
+	
 	.fullwidth #entries-area, .fullwidth #entries-area-content { background: none; }
 	.fullwidth #content-area { width: 960px; margin-right: 0px; }
 
