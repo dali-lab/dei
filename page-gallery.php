@@ -21,9 +21,7 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 			<div id="entries-area-inner">
 				<div id="entries-area-content" class="clearfix">
 					<div id="content-area">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<!-- <?php get_template_part('includes/breadcrumbs'); ?> -->
-
+					
 						<div class="entry post clearfix">
 							<h1 class="title"><?php the_title(); ?></h1>
 
