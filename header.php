@@ -53,7 +53,17 @@
 				if (function_exists('wp_nav_menu')) {
 					$primaryNav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'menu_id' => $menuID, 'echo' => false ) );
 				};
-			
+				if ($primaryNav == '') { ?>
+					<ul id="<?php echo esc_attr( $menuID ); ?>" class="<?php echo esc_attr( $menuClass ); ?>">
+						<?php if (get_option('nova_home_link') == 'on') { ?>
+							<li <?php if (is_home()) echo('class="current_page_item"') ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e('Home','Nova') ?></a></li>
+						<?php }; ?>
+
+						<?php show_page_menu($menuClass,false,false); ?>
+
+						<?php show_categories_menu($menuClass,false); ?>
+					</ul> <!-- end ul#nav -->
+				<?php }
 				else echo($primaryNav); ?>
 
 				<div id="search-form">
