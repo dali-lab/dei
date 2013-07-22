@@ -152,14 +152,7 @@ display:block; height:29px; padding-left: 15px; }
 
 			#content-area { float: left; width: 625px; margin-right: 60px; }
 
-				.entry { margin-top: 40px; }
-					.entry h2.title, .entry h1.title, h3#comments, h3#reply-title span { font-size: 36px; margin-bottom: 4px; }
-						.entry h2.title a, .entry h1.title, h3#comments, h3#reply-title span { color: #555555; }
-					.entry h2.title a:hover { color: #000; text-decoration: none; }
-					.post-info { background: url(images/postinfo-bg.png) no-repeat; padding-top: 5px; margin-bottom: 10px; }
-						.post-info p.post-meta { background: url(images/postinfo-bg.png) no-repeat bottom left; padding-bottom: 7px; color: #b6b6b6; font-style: italic; font-family: Georgia, serif; }
-							p.post-meta a { color: #686868; }
-							p.post-meta a:hover { color: #000; text-decoration: none; }
+
 
 	#breadcrumbs { color: #686868; font-family: Georgia, serif; font-style: italic; font-weight: bold; }
 		#breadcrumbs a, #breadcrumbs span.raquo { display: block; float: left; }
