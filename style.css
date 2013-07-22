@@ -131,7 +131,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					ul#main-tabs strong { text-transform: uppercase; color: #555555; font-weight: bold; text-shadow: 1px 1px 1px #fff; font-size: 21px; letter-spacing: -1px; }
 					ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1px 1px 1px #fff; letter-spacing: -1px; /*width:130px;*/ line-height: 5px;}
 		.tab-slide { padding-top: 46px; }
-			.tab-slide h3.title { font-size: 48px; color: #555555; padding-bottom: 12px; }
+			.tab-slide h3.title { font-size: 300px; color: #555555; padding-bottom: 12px; }
 			.thumbnail { display:block; float:left; padding:4px; position:relative; margin-right: 20px; margin-top: 4px; width: 164px; height: 186px; }
 				.thumbnail span.overlay2 { background:url(images/box-overlay2.png) no-repeat;
 display:block; height:186px; left:-2px; position:absolute; top:-1px; width:172px; }
