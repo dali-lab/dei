@@ -148,7 +148,7 @@
 			<div id="services">
 				<ul id="main-tabs">
 																
-						<li><a href="#"><strong>New Initiatives</strong></a></li>
+						<li><img src="http://www.cs.dartmouth.edu/~energy/wp-content/uploads/2013/07/African-Daisy.gif" alt="Dartmouth Energy" id="logo"/><a href="#"><strong>New Blah Initiatives</strong></a></li>
 
 																	
 						<li><a href="#"><strong>History</strong><span>tagline here</span></a></li>
