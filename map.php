@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: mapzzz
+*/
+?>
 <!DOCTYPE html>
 <html>
   <head>
