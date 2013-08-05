@@ -15,7 +15,7 @@ Template Name: Map Page
 				<div id="entries-area-content" class="clearfix">
 					<div id="content-area">
 
-<div id="map_canvas"></div>
+<div id="map_canvas" onload="initialize()"></div>
 
 																</div> <!-- end #content-area -->
 
