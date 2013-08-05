@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
 /*
 Template Name: Map Page
@@ -6,8 +8,16 @@ Template Name: Map Page
 
 <?php get_header(); ?>
 
-
- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
 var map;
 function initialize() {
@@ -23,6 +33,10 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
 
-    
+
 <?php get_footer(); ?>
