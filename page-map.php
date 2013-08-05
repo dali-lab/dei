@@ -8,9 +8,10 @@ Template Name: Map Page
 
 <?php get_header(); ?>
 
-     <head>
+     
 
   <div id="main-content"<?php if ($fullwidth) echo ' class="fullwidth"'; ?>>
+  	<head>
   	<style>
       #map_canvas {
         width: 500px;
