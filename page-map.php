@@ -14,14 +14,9 @@ Template Name: Map Page
 			<div id="entries-area-inner">
 				<div id="entries-area-content" class="clearfix">
 					<div id="content-area">
-											
-						<head>
-  	<style>
-      #map_canvas {
-        width: 500px;
-        height: 400px;
-      }
-    </style>
+
+
+<div id="map_canvas">
 
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>
@@ -37,8 +32,7 @@ Template Name: Map Page
       google.maps.event.addDomListener(window, ‘load’, initialize);
     </script>
 
- </head>
-<div id="map_canvas"></div>
+</div>
 
 																</div> <!-- end #content-area -->
 
