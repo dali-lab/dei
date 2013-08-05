@@ -8,7 +8,8 @@ Template Name: Map Page
 
 <?php get_header(); ?>
 
-    
+     <head>
+
   <div id="main-content"<?php if ($fullwidth) echo ' class="fullwidth"'; ?>>
   	<style>
       #map_canvas {
@@ -30,7 +31,8 @@ Template Name: Map Page
       }
       google.maps.event.addDomListener(window, ‘load’, initialize);
     </script>
-    
+
+ </head>
 <div id="map_canvas"></div>
    
 
