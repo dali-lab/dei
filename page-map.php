@@ -8,16 +8,6 @@ Template Name: Map Page
 
 <?php get_header(); ?>
 
-   <div id="main-content" class="fullwidth">
-	<div class="container clearfix">
-		<div id="entries-area">
-			<div id="entries-area-inner">
-				<div id="entries-area-content" class="clearfix">
-					<div id="content-area">
-
-
-<div id="map_canvas">
-
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>
       function initialize() {
@@ -32,7 +22,14 @@ Template Name: Map Page
       google.maps.event.addDomListener(window, ‘load’, initialize);
     </script>
 
-</div>
+   <div id="main-content" class="fullwidth">
+	<div class="container clearfix">
+		<div id="entries-area">
+			<div id="entries-area-inner">
+				<div id="entries-area-content" class="clearfix">
+					<div id="content-area">
+
+<div id="map_canvas"></div>
 
 																</div> <!-- end #content-area -->
 
