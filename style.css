@@ -159,7 +159,7 @@ display:block; height:29px; padding-left: 15px; }
 		#entries-area-content { background: url(images/content-area-topbg.jpg) no-repeat top right; padding-bottom: 40px; }
 
 /*625*/
-			#content-area { float: left; width: 960px; margin-right: 60px; }
+			#content-area { float: left; width: 960px; margin-right: 10px; }
 
 				.entry { margin-top: 40px; }
 					.entry h2.title, .entry h1.title, h3#comments, h3#reply-title span { font-size: 36px; margin-bottom: 4px; }
