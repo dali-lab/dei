@@ -20,7 +20,7 @@ Template Name: Map Page
   <script src="http://maps.google.com/maps/api/js?sensor=false"  type="text/javascript"></script>
 
 
- <div id="romeluv-global-map" style="width:1440px; height:520px;  "></div>
+ <div id="romeluv-global-map" style="width:100%; height:520px; "></div>
           
             <script type="text/javascript">
            
