@@ -9,7 +9,7 @@ Template Name: Map Page
 <?php get_header(); ?>
 
    <div id="main-content" class="fullwidth">
-					<div id="content-area">
+
 
 
 
@@ -47,8 +47,6 @@ Template Name: Map Page
        //  Fit these bounds to the map
     map.fitBounds(bounds);
      </script>
-
-																</div> <!-- end #content-area -->
 
 
 </div> <!-- end #main-content -->
