@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 
 <?php if ( is_home() && get_option('nova_featured') == 'false' ) { ?>
 	<div class="et_pad"></div>
