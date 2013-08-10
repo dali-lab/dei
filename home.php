@@ -140,3 +140,4 @@
 	</div> <!-- end #home-blogstyle -->
 <?php } ?>
 
+<?php get_footer(); ?>
