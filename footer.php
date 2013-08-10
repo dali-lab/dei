@@ -11,7 +11,7 @@
 
 		<div id="footer">
 			<div class="container clearfix">
-				<p id="copyright"><?php esc_html_e('Designed by ','Nova'); ?> DALI | <?php esc_html_e('Powered by ','Nova'); ?> <a href="http://www.wordpress.org">WordPress</a></p>
+				<p id="copyright"><?php esc_html_e('Designed by ','Nova'); ?> DALI | <?php esc_html_e('Developed by ','Nova'); ?> Robin </p>
 			</div> <!-- end .container -->
 		</div> <!-- end #footer -->
 	</div> <!-- end #center-highlight-->
