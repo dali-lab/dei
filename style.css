@@ -211,7 +211,7 @@ display:block; height:29px; padding-left: 15px; }
 		ul.nav ul li { margin: 0px; padding: 6px 10px 6px 10px !important;  }
 			ul.nav ul li a { line-height: 18px !important; width: 150px; background-color: #fff; }
 
-			ul.nav li:hover ul ul, ul.nav li.sfHover ul ul { top: -16px !important; left: 183px !important; border-top-right-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px; }
+			ul.nav li:hover ul ul, ul.nav li.sfHover ul ul { top: -16px !important; left: 183px !important; border-top-right-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 50px; }
 
 	span.menu_arrow { display: block; width: 8px; height: 5px; background: url(images/menu-active-arrow.png) no-repeat; position: absolute; top: -15px; left: 37%; display: none; }
 
