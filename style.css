@@ -203,7 +203,8 @@ ul#top-menu{background-color:#000000}
 	ul#top-menu li {margin-left: 0px; display:block; height:47px; /*padding:0 12px 0 0;*/ float:left; position: relative; }
 		ul#top-menu a {font-size: 12px; text-align:center; color: #FFFFFF; background-color:#DA0FE9; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; line-height:47px; padding: 10px 10px 10px 10px; -moz-box-shadow:inset -1px -1px 13px #000000;-webkit-box-shadow:inset -1px -1px 13px #000000;box-shadow:inset -1px -1px 13px #000000;}
  
- #menu-item-837{width: 250px !important; background: #4b4b4b; top: 59px !important; left: 0 !important; -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); z-index: 9999; display: none; }
+ #menu-item-837{font-size: 24px; text-align:center; color: #FFFFFF; background-color:#FFFFFF; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; line-height:47px; padding: 10px 10px 10px 10px; -moz-box-shadow:inset -1px -1px 13px #000000;-webkit-box-shadow:inset -1px -1px 13px #000000;box-shadow:inset -1px -1px 13px #000000;}
+ 
 
 
  ul#top-menu a:hover{background-color:#F56C04}
