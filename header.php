@@ -67,13 +67,6 @@
 				<?php }
 				else echo($primaryNav); ?>
 
-				<div id="search-form">
-					<a href="#" id="search"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $colorSchemePath; ?>search_btn.png" width="15" height="15" alt="Search" /></a>
-
-					<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<input type="text" value="<?php esc_attr_e('search this site...','Nova'); ?>" name="s" id="searchinput" />
-					</form>
-				</div> <!-- end #search-form -->
 			</div> <!-- end .container -->
 		</div> <!-- end #header -->
 
