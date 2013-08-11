@@ -198,7 +198,7 @@ display:block; height:29px; padding-left: 15px; }
 /*---------------[DROPDOWN MENU]------------------*/
 /*------------------------------------------------*/
 
-	ul#top-menu li { margin-left: 0px; display:block; height:40px; /*padding:0 12px 0 0;*/ float:left; position: relative; }
+	ul#top-menu li { margin-left: 0px; display:block; height:29px; /*padding:0 12px 0 0;*/ float:left; position: relative; }
 		ul#top-menu a { font-size: 18px; color: #FFFFFF; background-color:#59059D; text-decoration: none; text-shadow: 1px 1px 1px #ffffff; display: block; line-height:27px; padding: 10px 20px 20px 20px;}
  ul#top-menu a:hover{background-color:#F56C04}
 
