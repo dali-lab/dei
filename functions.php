@@ -161,7 +161,6 @@ function et_epanel_custom_colors_css(){
 		body { color: #<?php echo esc_html(get_option($shortname.'_color_mainfont')); ?>; }
 		#content-area a { color: #<?php echo esc_html(get_option($shortname.'_color_mainlink')); ?>; }
 		ul.nav li a { color: #<?php echo esc_html(get_option($shortname.'_color_pagelink')); ?>; }
-		ul.nav > li.current_page_item > a, ul#top-menu > li:hover > a, ul.nav > li.current-cat > a { color: #<?php echo esc_html(get_option($shortname.'_color_pagelink_active')); ?>; }
 		h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #<?php echo esc_html(get_option($shortname.'_color_headings')); ?>; }
 
 		#sidebar a { color:#<?php echo esc_html(get_option($shortname.'_color_sidebar_links')); ?>; }
