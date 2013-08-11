@@ -199,16 +199,11 @@ display:block; height:29px; padding-left: 15px; }
 /*------------------------------------------------*/
 
 	ul#top-menu li { margin-left: 0px; display:block; height:40px; /*padding:0 12px 0 0;*/ float:left; position: relative; }
-	
-
-
-
-ul#top-menu a:hover{-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background-color: #575757; color: #fff !important; padding-left: 45px !important; }
-
+		ul#top-menu a { font-size: 18px; color: #F56C04; background-color:#59059D; text-decoration: none; text-shadow: 1px 1px 1px #ffffff; display: block; line-height:27px; }
  
 
 		ul#top-menu > li { padding:0 0px 0 0; }
-			ul#top-menu > li > a { padding:0 0 0 0px; }
+			ul#top-menu > li > a { padding:20 20 20 20px; }
 
 		ul#top-menu > li.current_page_item { background:url(images/menu-nav.png) no-repeat scroll right bottom transparent; padding:0 15px 0 0; }
 			ul#top-menu > li.current_page_item > a { color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); background:url(images/menu-nav.png) no-repeat scroll 0 0 transparent; display:block; height:29px; line-height:27px; padding:0 0 0 15px; }
