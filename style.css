@@ -148,7 +148,8 @@ display:block; height:186px; left:-2px; position:absolute; top:-1px; width:172px
 			a.readmore { background:url(images/readmore.png) no-repeat right bottom; color:#ffffff; display:block; float:right; font-size:12px; height:29px; line-height:27px; padding-right:15px; text-shadow:1px 1px 1px rgba(0,0,0,0.4); font-weight: bold; margin-bottom: 25px; }
 				a.readmore span { background:url(images/readmore.png) no-repeat;
 display:block; height:29px; padding-left: 15px; }
-		
+			a.readmore:hover { color: #f6f6f6; }
+
 	.gallery-area { margin-left: -33px; }
 		.gallery-area .et_pt_item_image img.portfolio { background: #fff !important; border: 1px solid #d7d7d7 !important; padding: 3px !important; }
 			.gallery-area .et_pt_item_image span.overlay { top: 4px !important; left: 4px !important; }
@@ -163,13 +164,16 @@ display:block; height:29px; padding-left: 15px; }
 				.entry { margin-top: 40px; }
 					.entry h2.title, .entry h1.title, h3#comments, h3#reply-title span { font-size: 36px; margin-bottom: 4px; }
 						.entry h2.title a, .entry h1.title, h3#comments, h3#reply-title span { color: #555555; }
+					.entry h2.title a:hover { color: #000; text-decoration: none; }
 					.post-info { background: url(images/postinfo-bg.png) no-repeat; padding-top: 5px; margin-bottom: 10px; }
 						.post-info p.post-meta { background: url(images/postinfo-bg.png) no-repeat bottom left; padding-bottom: 7px; color: #b6b6b6; font-style: italic; font-family: Georgia, serif; }
 							p.post-meta a { color: #686868; }
-							
+							p.post-meta a:hover { color: #000; text-decoration: none; }
+
 	#breadcrumbs { color: #686868; font-family: Georgia, serif; font-style: italic; font-weight: bold; }
 		#breadcrumbs a, #breadcrumbs span.raquo { display: block; float: left; }
 		#breadcrumbs a { color: #b6b6b6; font-weight: normal; }
+			#breadcrumbs a:hover { color: #000; text-decoration: none; }
 		#breadcrumbs span.raquo { background: url(images/breadcrumbs-separator.png) no-repeat; text-indent: -9999px; width: 34px; margin: 0 2px; }
 
 		#breadcrumbs-left, #breadcrumbs-content, #breadcrumbs-right { float: left; height: 35px; }
@@ -198,10 +202,9 @@ ul#top-menu{width:100%; }
 	ul#top-menu li {text-align: center;margin-left: 0px; display:block; height:47px; /*padding:0 12px 0 0;*/ float:left; position: relative; }
 		ul#top-menu a {font-size: 12px; text-align:center; color: #FFFFFF; background-color:#7760D2; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; line-height:47px; padding: 10px 10px 10px 10px; -moz-box-shadow:inset -1px -1px 13px #000000;-webkit-box-shadow:inset -1px -1px 13px #000000;box-shadow:inset -1px -1px 13px #000000;}
  
- #menu-item-837{font-size: 24px; text-align:center; color: #FFFFFF; background-color:#FFFFFF; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; line-height:47px; padding: 10px 10px 10px 10px; -moz-box-shadow:inset -1px -1px 13px #000000;-webkit-box-shadow:inset -1px -1px 13px #000000;box-shadow:inset -1px -1px 13px #000000;}
+ #menu-item-837{font-size: 24px; text-align:center; color: #FFFFFF; background-color:#FF9500; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; line-height:47px; padding: 10px 10px 10px 10px; -moz-box-shadow:inset -1px -1px 13px #000000;-webkit-box-shadow:inset -1px -1px 13px #000000;box-shadow:inset -1px -1px 13px #000000;}
  
- ul#top-menu a:hover{background-color:#FF9500}
-
+ 
 		ul#top-menu > li { padding:0 0px 0 0; }
 			ul#top-menu > li > a { padding:0 10 10 0px; }
 
@@ -212,7 +215,8 @@ ul#top-menu{width:100%; }
 		ul.nav ul li { margin: 0px; padding: 6px 10px 6px 10px !important;  }
 			ul.nav ul li a { line-height: 18px !important; width: 150px; background-color: #fff; }
 
-		
+			ul.nav li:hover ul ul, ul.nav li.sfHover ul ul { top: -16px !important; left: 183px !important; border-top-right-radius: 8px; -moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px; }
+
 	span.menu_arrow { display: block; width: 8px; height: 5px; background: url(images/menu-active-arrow.png) no-repeat; position: absolute; top: -15px; left: 37%; display: none; }
 
 	span.menu_top_arrow { display: block; width: 19px; height: 10px; background: url(images/topmenu_arrow.png) no-repeat; position: absolute; top: -10px; left: 22px; }
@@ -269,7 +273,8 @@ div.avatar { position: relative; padding: 8px 0 0 8px; height: 66px; }
 		.reply-container a { background:url(images/readmore.png) no-repeat; display:block; height:29px; padding-left: 15px; color:#ffffff; }
 	.reply-container a:hover { color: #f6f6f6; text-decoration: none; }
 	span.fn, span.fn a { color: #555; font-size: 24px; }
-	
+	span.fn a:hover { color: #000; text-decoration: none; }
+
 	.comment-content { padding-top: 9px; }
 
 	.depth-2 .comment-wrap { width: 472px; }
@@ -351,7 +356,15 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 .nav ul { position:absolute; top:-999em; background-position: bottom; background-repeat: no-repeat; z-index: 10; }
 .nav li { float:left; position:relative; }
 .nav a { display:block; float: left; }
-	
+	.nav li:hover ul, ul.nav li.sfHover ul { left:0px; top:50px; }
+	.nav li:hover li ul, .nav li.sfHover li ul { top:-999em; }
+		.nav li li:hover ul, ul.nav li li.sfHover ul { left:192px; top:0px; }
+	.nav li:hover ul, .nav li li:hover ul { top: -999em; }
+	.nav li li {	display: block;	padding: 0px; float: left; height: auto !important; }
+	.nav li ul { width: 191px; z-index:1000; }
+		.nav li li a:link, .nav li li a:visited {	display: block; height: auto; float: left; }
+		.nav li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
+
 
 /*------------------------------------------------*/
 /*-----------------[WP CALENDAR]-----------------*/
@@ -374,6 +387,10 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 
 .wp-pagenavi { position: relative; float: right; margin-top: 35px; }
 .wp-pagenavi a { color: #666; }
+.wp-pagenavi a:hover { color: #000; }
+
+
+a.readmore:hover, #sidebar div.custom-sidebar-block ul.control li a:hover, ul#cats-menu li a:hover, ul#page-menu li a:hover, div#slider-control div.featitem h2 a  { text-decoration: none; }
 
 .foursixeight { margin: 0px 0px 15px 84px;}
 
