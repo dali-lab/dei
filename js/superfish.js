@@ -29,8 +29,7 @@
 				menu.sfTimer=setTimeout(function(){
 					o.retainPath=($.inArray($$[0],o.$path)>-1);
 					$$.hideSuperfishUl();
-					if (o.$path.length && $$.parents(['li.',o.hoverClass].join('')).length<1){over.call(o.$path);}
-				},o.delay);
+					
 			},
 			getMenu = function($menu){
 				var menu = $menu.parents(['ul.',c.menuClass,':first'].join(''))[0];
@@ -43,7 +42,10 @@
 			var s = this.serial = sf.o.length;
 			var o = $.extend({},sf.defaults,op);
 
-			
+			o.$path = $('li.'+o.pathClass,this).slice(0,o.pathLevels).each(function(){
+				$(this).addClass([o.hoverClass,c.bcClass].join(' '))
+					.filter('li:has(ul)').removeClass(o.pathClass);
+			});
 			sf.o[s] = sf.op = o;
 
 			$('li:has(ul)',this)[($.fn.hoverIntent && !o.disableHI) ? 'hoverIntent' : 'hover'](over,out).each(function() {
