@@ -123,7 +123,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 .container.clearfix{width:100%;}
 
 #center-highlight { background: url(images/center-highlight.png) no-repeat center top; }
-.container { text-align: left; margin: 0 auto; width: 1100px; position: relative; }
+.container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 860px; padding-top: 37px; padding-bottom: 52px; }
 body#home #header .container { padding-bottom: 70px; }
 #logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
@@ -163,9 +163,11 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#entries-area-content { background: url(images/content-area-topbg.jpg) no-repeat top right; padding-bottom: 40px; }
 
 
-		/*#content-area { float: left; width: 625px; margin-right: 60px; }*/
-		#content-area {  width:100%; margin-right: 60px; }
+#content-area { float: left; width:100%; margin-right: 60px; }
 
+
+
+		/*#content-area { float: left; width: 625px; margin-right: 60px; }*/
 
 		.entry { margin-top: 40px; }
 		.entry h2.title, .entry h1.title, h3#comments, h3#reply-title span { font-size: 36px; margin-bottom: 4px; }
