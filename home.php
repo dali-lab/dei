@@ -4,7 +4,7 @@
 	<div class="et_pad"></div>
 <?php } ?>
 
-<div id="category-name"> <br><br><br><br>
+<div id="category-name"> 
 		<div id="category-inner"> 
 					<p style="color:#545454; font-size:25px;">The mission of The Sharon Academy is to nurture intelligent, independent, and creative thinking in a small school community, awakening students to their immense potential and the difference they can make in the world.</p>
             
@@ -13,6 +13,7 @@
 			
         </div>
 	</div> <!-- end .category-name -->
+	<br><br><br><br>
 
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
 	<div id="main-area">
