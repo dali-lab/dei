@@ -43,13 +43,14 @@
 			var s = this.serial = sf.o.length;
 			var o = $.extend({},sf.defaults,op);
 
-			o.$path = $('li.'+o.pathClass,this).slice(0,o.pathLevels).each(function(){
-				$(this).addClass([o.hoverClass,c.bcClass].join(' '))
-					.filter('li:has(ul)').removeClass(o.pathClass);
-			});
+			
 			sf.o[s] = sf.op = o;
 
-			
+			$('li:has(ul)',this)[($.fn.hoverIntent && !o.disableHI) ? 'hoverIntent' : 'hover'](over,out).each(function() {
+				if (o.autoArrows) addArrow( $('>a:first-child',this) );
+			})
+			.not('.'+c.bcClass)
+				.hideSuperfishUl();
 
 			var $a = $('a',this);
 			$a.each(function(i){
