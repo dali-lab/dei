@@ -297,7 +297,15 @@
 		is_ie = jQuery.browser.msie,
 		et_is_ipad = navigator.userAgent.match(/iPad/i) != null;
 
-		
+		jQuery.fn.hideSuperfishUl = function(){
+			var o = sf.op,
+			not = (o.retainPath===true) ? o.$path : '';
+			o.retainPath = false;
+			var $ul = jQuery(['li.',o.hoverClass].join(''),this).add(this).not(not).removeClass(o.hoverClass)
+			.find('>ul').animate({opacity:'hide',height:'hide'},200);
+			o.onHide.call($ul);
+			return this;
+		}
 
 		jQuery('.video-slide iframe').each( function(){
 			var src_attr = jQuery(this).attr('src'),
@@ -309,27 +317,7 @@
 
 		var $top_menu = jQuery('ul.nav');
 
-		$top_menu.superfish({
-				delay:       300,                            // one second delay on mouseout
-				animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
-				speed:       200,                          // faster animation speed
-				autoArrows:  true,                           // disable generation of arrow mark-up
-				dropShadows: false,                            // disable drop shadows
-				onBeforeShow: function() {
-					if ( this.parent('li').css('background-image') === 'none' ) {
-						if (!is_ie)
-							this.parent('li').find('>a').fadeTo('fast',.5).siblings('span.menu_arrow').stop(true, true).animate( {opacity:'show', top:'-5px'}, 400);
-						else
-							this.parent('li').find('>a').siblings('span.menu_arrow').stop(true, true).animate( {opacity:'show', top:'-5px'}, 400);
-					}
-				},
-				onHide: function() {
-					if (!is_ie)
-						this.parent('li').find('>a').fadeTo('fast',1).siblings('span.menu_arrow').stop(true, true).animate( {opacity:'hide', top:'-15px'}, 400);
-					else
-						this.parent('li').find('>a').siblings('span.menu_arrow').stop(true, true).animate( {opacity:'hide', top:'-15px'}, 400);
-				}
-			});
+		
 
 $top_menu.find('> li > ul').parent('li').addClass('sf-ul');
 
