@@ -157,6 +157,7 @@ function et_add_mobile_navigation(){
 function et_epanel_custom_colors_css(){
 	global $shortname; ?>
 
+<!--
 	<style type="text/css">
 		body { color: #<?php echo esc_html(get_option($shortname.'_color_mainfont')); ?>; }
 		#content-area a { color: #<?php echo esc_html(get_option($shortname.'_color_mainlink')); ?>; }
@@ -168,6 +169,7 @@ function et_epanel_custom_colors_css(){
 		div#footer { color:#<?php echo esc_html(get_option($shortname.'_footer_text')); ?> }
 		#footer a, ul#bottom-menu li a { color:#<?php echo esc_html(get_option($shortname.'_color_footerlinks')); ?> }
 	</style>
+-->
 
 <?php }
 
