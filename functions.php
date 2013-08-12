@@ -148,12 +148,15 @@ function et_add_viewport_meta(){
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />';
 }
 
-
+add_action( 'et_header_menu', 'et_add_mobile_navigation' );
+function et_add_mobile_navigation(){
+	if ( 'on' != get_option('nova_responsive_layout') ) return;
+	echo '<div><a href="#" class="mobile_nav closed">' . esc_html__( 'navigation menu', 'Nova' ) . '</a></div>';
+}
 
 function et_epanel_custom_colors_css(){
 	global $shortname; ?>
 
-<!--
 	<style type="text/css">
 		body { color: #<?php echo esc_html(get_option($shortname.'_color_mainfont')); ?>; }
 		#content-area a { color: #<?php echo esc_html(get_option($shortname.'_color_mainlink')); ?>; }
@@ -165,7 +168,6 @@ function et_epanel_custom_colors_css(){
 		div#footer { color:#<?php echo esc_html(get_option($shortname.'_footer_text')); ?> }
 		#footer a, ul#bottom-menu li a { color:#<?php echo esc_html(get_option($shortname.'_color_footerlinks')); ?> }
 	</style>
--->
 
 <?php }
 
