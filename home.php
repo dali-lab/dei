@@ -64,6 +64,105 @@
 		</div> <!-- end .container -->
 	</div> <!-- end #header -->
 
+<div class="flex-container">
+	<div id="featured" class="flexslider">
+			
+	<ul class="slides">
+						
+						
+							<li class="slide">
+					<img src="http://0371ac6.netsolhost.com/wordpress/wp-content/uploads/2013/02/CircusFeatured-156964_960x291.jpg" alt='Every Middle School student participates in the Circus' width='960' height='332' />					<div class="featured-top-shadow"></div>
+					<div class="featured-bottom-shadow"></div>	
+					
+					<div class="featured-description">
+						<h2 class="featured-title"><a href="http://0371ac6.netsolhost.com/wordpress/?page_id=48">Every Middle School student participates in the Circus</a></h2>
+						<p><p>.</p>
+</p>
+						<a href="http://0371ac6.netsolhost.com/wordpress/?page_id=48" class="readmore">Read More</a>
+					</div> <!-- end .featured-description -->
+				</li> <!-- end .slide -->
+						
+						
+						
+				
+						
+							<li class="slide">
+					<img src="http://0371ac6.netsolhost.com/wordpress//wp-content/uploads/2012/10/SportsFeatured-192753_960x291.jpg" alt='67% of our students play a team sport' width='960' height='332' />					<div class="featured-top-shadow"></div>
+					<div class="featured-bottom-shadow"></div>	
+					
+					<div class="featured-description">
+						<h2 class="featured-title"><a href="http://0371ac6.netsolhost.com/wordpress/?page_id=52">67% of our students play a team sport</a></h2>
+						<p><p>.</p>
+</p>
+						<a href="http://0371ac6.netsolhost.com/wordpress/?page_id=52" class="readmore">Read More</a>
+					</div> <!-- end .featured-description -->
+				</li> <!-- end .slide -->
+						
+						
+						
+				
+						
+							<li class="slide">
+					<img src="http://0371ac6.netsolhost.com/wordpress//wp-content/uploads/2012/10/MusicalFeatured-319169_960x291.jpg" alt='Every High School student participates in the Interim Musical' width='960' height='332' />					<div class="featured-top-shadow"></div>
+					<div class="featured-bottom-shadow"></div>	
+					
+					<div class="featured-description">
+						<h2 class="featured-title"><a href="http://0371ac6.netsolhost.com/wordpress/?page_id=56">Every High School student participates in the Interim Musical</a></h2>
+						<p><p>.</p>
+</p>
+						<a href="http://0371ac6.netsolhost.com/wordpress/?page_id=56" class="readmore">Read More</a>
+					</div> <!-- end .featured-description -->
+				</li> <!-- end .slide -->
+						
+						
+						
+				
+						
+							<li class="slide">
+					<img src="http://0371ac6.netsolhost.com/wordpress/wp-content/uploads/2013/02/Community-Service-cropped.jpg" alt='Every student must complete Community Service each year' width='960' height='332' />					<div class="featured-top-shadow"></div>
+					<div class="featured-bottom-shadow"></div>	
+					
+					<div class="featured-description">
+						<h2 class="featured-title"><a href="http://0371ac6.netsolhost.com/wordpress/?page_id=553">Every student must complete Community Service each year</a></h2>
+						<p><p>.</p>
+</p>
+						<a href="http://0371ac6.netsolhost.com/wordpress/?page_id=553" class="readmore">Read More</a>
+					</div> <!-- end .featured-description -->
+				</li> <!-- end .slide -->
+						
+						
+						
+				
+						
+							<li class="slide">
+					<img src="http://0371ac6.netsolhost.com/wordpress/wp-content/uploads/2013/03/MS-Curriculim-Slider.jpg" alt='Middle School integrated curriculum combines art, social studies, science and language arts' width='960' height='332' />					<div class="featured-top-shadow"></div>
+					<div class="featured-bottom-shadow"></div>	
+					
+					<div class="featured-description">
+						<h2 class="featured-title"><a href="http://0371ac6.netsolhost.com/wordpress/?page_id=687">Middle School integrated curriculum combines art, social studies, science and language arts</a></h2>
+						<p><p>.</p>
+</p>
+						<a href="http://0371ac6.netsolhost.com/wordpress/?page_id=687" class="readmore">Read More</a>
+					</div> <!-- end .featured-description -->
+				</li> <!-- end .slide -->
+						
+						
+						
+			</ul> <!-- end ul.slides" -->
+	
+			<div id="controllers_wrapper">
+			<ul id="flex_controllers" class="clearfix">	
+									<li><a href="#">0</a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+							</ul>
+		</div>
+	</div> <!-- end #featured -->
+
+	</div> <!-- end .flex-container" -->
+	
 	<!-- Start Featured -->
 	<div id="featured">
 		<div class="container clearfix">
