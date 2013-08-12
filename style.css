@@ -121,7 +121,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*------------------------------------------------*/
 
 #center-highlight { background: url(images/center-highlight.png) no-repeat center top; }
-	.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
+	.container { text-align: left; margin: 0 auto; width: 1020px; position: relative; }
 	#header .container { width: 860px; padding-top: 37px; padding-bottom: 52px; }
 	body#home #header .container { padding-bottom: 70px; }
 		#logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
