@@ -6,7 +6,7 @@
 
 <div id="category-name"> 
 		<div id="category-inner"> 
-					<p style="color:#21B000; font-size:50px;">What is the Dartmouth Energy Initiative?</p>
+					<p style="color:#21B000;text-align: center;font-size:50px;">What is the Dartmouth Energy Initiative?</p>
             
             
 							<h4><a href="/wordpress/?page_id=237" <p style=font-weight:lighter;>Read more about our Core Values</p></a></h4>
