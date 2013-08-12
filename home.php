@@ -123,7 +123,7 @@
 			<div id="services">
 				<ul id="main-tabs">
 
-					<li><a href="#"><strong>New Initiatives</strong></a></li>
+					<li><a href="#"><img src="https://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/256x256/Circle_Green.png"><strong>New Initiatives</strong></a></li>
 
 
 					<li><a href="#"><strong>History</strong><span>tagline here</span></a></li>
