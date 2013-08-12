@@ -124,7 +124,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 .container.clearfix{width:100%;}
 
-#center-highlight { background: url(images/center-highlight.png) no-repeat center top; }
+#center-highlight {background-color:#F5F5F5; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 860px; padding-top: 37px; padding-bottom: 52px; }
 body#home #header .container { padding-bottom: 70px; }
