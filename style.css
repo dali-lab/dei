@@ -132,10 +132,10 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					#searchinput { background: none; border: none; width: 170px; font-size: 12px; /*float: left;*/ color: #555555; margin-top: 14px; padding-left: 17px; padding-top: 0; }
 
 	#main-area, #footer-widgets { background: #e9e8e8 url(images/main-area.png) repeat-x top left; border-bottom: 1px solid #cdcccc; }
-		ul#main-tabs { position: absolute; top:-102px; left: 0px; }
+		ul#main-tabs { position: absolute; top:-102px; left: 0px;width:100%; }
 
 
-			ul#main-tabs li { width:100%; float: left; /*padding: 47px 24px 18px 40px; height: 39px; width: 142px; */ }
+			ul#main-tabs li {float: left; /*padding: 47px 24px 18px 40px; height: 39px; width: 142px; */ }
 			ul#main-tabs li.ui-state-active { background:url(images/active-tab2.png) 0px 6px no-repeat; }
 				ul#main-tabs li a { text-decoration: none; /* padding-right: 20px; */ display: block; padding: 47px 9px 18px; height: 39px; width: 188px; text-align: center; }
 					ul#main-tabs strong { text-transform: uppercase; color: #555555; font-weight: bold; text-shadow: 1px 1px 1px #fff; font-size: 21px; letter-spacing: -1px; }
