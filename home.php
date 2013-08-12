@@ -5,16 +5,15 @@
 <?php } ?>
 
 <div id="category-name"> 
-		<div id="category-inner"> 
+	
 					<p style="color:#21B000;text-align: center;font-size:50px;">What is the Dartmouth Energy Initiative?<br></p>
 					<p style="text-align:center;font-size:18px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
             
             
-							<h4><a href="/wordpress/?page_id=237" <p style=font-weight:lighter;>Read more about our Core Values</p></a></h4>
+							<h4><p style=font-weight:lighter;>Choose an icon below for more information</p></h4>
 			
         </div>
-	</div> <!-- end .category-name -->
 
 
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
