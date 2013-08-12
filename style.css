@@ -120,7 +120,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*---------------[MAIN LAYOUT INFO]---------------*/
 /*------------------------------------------------*/
 
-.container clearfix{width:100%;}
+.container.clearfix{width:100%;}
 
 #center-highlight { background: url(images/center-highlight.png) no-repeat center top; }
 	.container { text-align: left; margin: 0 auto; width: 1100px; position: relative; }
