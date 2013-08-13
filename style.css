@@ -124,7 +124,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 .container.clearfix{width:100%;}
 
-#center-highlight { background: url(images/center-highlight.png) no-repeat center top;background-color:#F5F5F5; }
+#center-highlight { background-color:#F5F5F5; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 860px; padding-top: 37px; padding-bottom: 52px; }
 body#home #header .container { padding-bottom: 70px; }
@@ -215,7 +215,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#menu-item-837{border-top-left-radius:25px;-moz-border-radius-topleft: 25px;}
 		#menu-item-837 a{border-top-left-radius:25px;-moz-border-radius-topleft: 25px;}
 
-		ul#top-menu a:hover{background-color:#FF9500 !important; opacity:100 !important;}
+		ul#top-menu a:hover{background-color:#FF9500 !important; opacity: 100 !important;}
 
 		ul#top-menu > li { padding:0 0px 0 0; }
 		ul#top-menu > li > a { padding:0 10 10 0px; }
@@ -240,13 +240,13 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#featured { margin-bottom: 125px; }
 		.featured-img { display:block; float:left; padding:4px; position:relative;width:100%;}
 		.featured-img a{width:100%;}
-		.featured-img a img{width:100% !important; height:350px !important;}
+		.featured-img a img{width:100% !important;}
 		#featured .description { float: right; width: 466px; padding-top: 23px; }
-		#featured h2.title { font-size: 60px; line-height: 50px; top:100px !important;}
-		#featured h2.title cufon { margin-bottom: -19px; top:100px !important;}
+		#featured h2.title { font-size: 60px; line-height: 50px; }
+		#featured h2.title cufon { margin-bottom: -19px; }
 
-		#featured h2.title a { text-decoration: none; color: #555; top:100px !important;}
-		#featured .description p { font-size: 24px; margin-top: 8px; top:100px !important;}
+		#featured h2.title a { text-decoration: none; color: #555; }
+		#featured .description p { font-size: 24px; margin-top: 8px; }
 		#featured a.join-today { background:url(images/jointoday.png) no-repeat; display: block; width: 115px; height: 51px; margin-top: 5px; padding:14px 18px 0 42px; text-decoration:none; float: left; text-align: left; }
 		#featured a.join-today strong { text-transform: uppercase; color: #fff; font-weight: bold; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); font-size: 18px; letter-spacing: -1px; }
 		#featured a.join-today span { color:#283d55; display:block; font-size:14px; text-shadow:1px 1px 1px rgba(255,255,255,0.3); letter-spacing: -1px; width:110px; font-size: 14px;}
