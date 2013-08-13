@@ -15,9 +15,8 @@
             
             
 							<h4><p style="font-weight:lighter; text-align:center;">Choose an icon below for more information</p></h4>
-			
         </div>
-        
+
 	<div id="main-area">
 		<div class="container clearfix">
 			<div id="services">
