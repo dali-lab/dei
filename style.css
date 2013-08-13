@@ -165,7 +165,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#entries-area-content { background: url(images/content-area-topbg.jpg) no-repeat top right; padding-bottom: 40px; }
 
 
-#content-area { float: left; width:100%; margin-right: 60px; }
+		#content-area { float: left; width:100%; margin-right: 60px; }
 
 
 
@@ -215,7 +215,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#menu-item-837{border-top-left-radius:25px;-moz-border-radius-topleft: 25px;}
 		#menu-item-837 a{border-top-left-radius:25px;-moz-border-radius-topleft: 25px;}
 
-		ul#top-menu a:hover{background-color:#FF9500; opacity=100;}
+		ul#top-menu a:hover{background-color:#FF9500 !important; opacity:100 !important;}
 
 		ul#top-menu > li { padding:0 0px 0 0; }
 		ul#top-menu > li > a { padding:0 10 10 0px; }
