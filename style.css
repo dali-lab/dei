@@ -239,10 +239,10 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 
 		#featured { margin-bottom: 125px; }
 		.featured-img { display:block; float:left; padding:4px; position:relative;width:100%;}
-		.featured-img a{width:0px; height:0px;}
+		.featured-img a{width:100%;}
 		.featured-img a img{width:100% !important;}
-		#featured .description { float: right; width: 466px; padding-top: 23px; }
-		#featured h2.title { font-size: 60px; line-height: 50px; }
+		#featured .description { float: right; width: 0px; padding-top: 0px; }
+		#featured h2.title { font-size: 60px; line-height: 0px;}
 		#featured h2.title cufon { margin-bottom: -19px; }
 
 		#featured h2.title a { text-decoration: none; color: #555; }
