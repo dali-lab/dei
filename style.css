@@ -240,7 +240,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#featured { margin-bottom: 125px; }
 		.featured-img { display:block; float:left; padding:4px; position:relative;width:100%;}
 		.featured-img a{width:100%;}
-		.featured-img a img{width:100% !important; height:350px;}
+		.featured-img a img{width:100% !important; height:350px !important;}
 		#featured .description { float: right; width: 466px; padding-top: 23px; }
 		#featured h2.title { font-size: 60px; line-height: 50px; }
 		#featured h2.title cufon { margin-bottom: -19px; }
