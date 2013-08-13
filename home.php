@@ -5,6 +5,19 @@
 <?php } ?>
 
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
+
+
+<div id="category-name"> 
+
+					<p style="color:#21B000;text-align: center;font-size:50px;">What is the Dartmouth Energy Initiative?<br><br></p>
+					<p style="text-align:center;font-size:18px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+            
+            
+							<h4><p style="font-weight:lighter; text-align:center;">Choose an icon below for more information</p></h4>
+			
+        </div>
+        
 	<div id="main-area">
 		<div class="container clearfix">
 			<div id="services">
