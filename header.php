@@ -34,9 +34,8 @@
 
 </head>
 <body<?php if ( is_front_page() || is_home() ) echo ' id="home"'; ?> <?php body_class(); ?>>
-
+	<div id="center-highlight">
 		<div id="header">
-			<div class="container clearfix">
 				<?php
 					global $shortname, $default_colorscheme;
 					$colorSchemePath = '';
@@ -67,6 +66,7 @@
 				<?php }
 				else echo($primaryNav); ?>
 
+		
 		</div> <!-- end #header -->
 
 		<?php if ( (is_front_page() || is_home()) && get_option('nova_featured') == 'on' ) get_template_part('includes/featured');?>
