@@ -36,7 +36,7 @@
 <body<?php if ( is_front_page() || is_home() ) echo ' id="home"'; ?> <?php body_class(); ?>>
 	<div id="center-highlight">
 		<div id="header">
-			<div class="blah">
+			<div class="container clearfix">
 				<?php
 					global $shortname, $default_colorscheme;
 					$colorSchemePath = '';
