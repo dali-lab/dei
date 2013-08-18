@@ -245,8 +245,8 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		#featured { margin-bottom: 125px; }
 		.featured-img { display:block; float:left; position:relative;width:100%;}
 		.featured-img a{width:100%;}
-		.featured-img a img{width:100% !important; height: 500px !important;}
-		#featured .description { float: right; width: 466px; padding-top: 23px; }
+		.featured-img a img{width:100% !important; height: 450px !important;}
+		#featured .description { float: right; width: 466px; padding-top: 0px;position:absolute; }
 		#featured h2.title { font-size: 60px; line-height: 50px; }
 		#featured h2.title cufon { margin-bottom: -19px; }
 
