@@ -216,8 +216,8 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 
 
 
-		ul#top-menu li:first-child{border-top-left-radius:25px; -moz-border-radius-topleft: 25px;}
-		ul#top-menu a:last-child{border-top-left-radius:25px; -moz-border-radius-topleft: 25px;}
+		ul#top-menu li:last-child{border-top-left-radius:25px; -moz-border-radius-topleft: 25px;}
+		ul#top-menu li:last-child a:{border-top-left-radius:25px; -moz-border-radius-topleft: 25px;}
 
 		ul#top-menu li:hover {background-color:#FF9500 !important; opacity: 100 !important;}
 		ul#top-menu a:hover{background-color:#FF9500 !important; opacity: 100 !important;}
