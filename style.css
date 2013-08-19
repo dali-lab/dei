@@ -234,8 +234,14 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		ul#top-menu > li { padding:0 0px 0 0; }
 		ul#top-menu > li > a { padding:0 10 10 0px; }
 
-		ul#top-menu > li.current_page_item { background:url(images/menu-nav.png) no-repeat scroll right bottom transparent; padding:0 15px 0 0; }
+
+
+		/*ul#top-menu > li.current_page_item { background:url(images/menu-nav.png) no-repeat scroll right bottom transparent; padding:0 15px 0 0; }
 		ul#top-menu > li.current_page_item > a { color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); background:url(images/menu-nav.png) no-repeat scroll 0 0 transparent; display:block; height:29px; line-height:27px; padding:0 0 0 15px; }
+*/
+ul#top-menu > li.current_page_item {width:15%; text-align: center;margin-left: 0px; display:block; height:72px; /*padding:0 12px 0 0;*/ float:right; background-color:#FF9500}
+ul#top-menu > li.current_page_item > a {width:100%;height:100%; line-height: 45px; display:block; font-size: 12px; text-align:center; color: #FFFFFF; background-color:#FF9500; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; } 
+
 
 		ul.nav ul, .et_mobile_menu { width: 198px; background: #fff; border: 1px solid #e8e8e8; top: 34px !important; box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow:1px 1px 5px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1x 1px 5px 0px rgba(0, 0, 0, 0.1); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; /*border-top-left-radius: 0px;-moz-border-radius-topleft: 0px; border-top-right-radius: 0px; -webkit-border-top-left-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px;*/ padding: 13px 0px 12px; z-index: 9999; display: none; }
 		ul.nav ul li { margin: 0px; padding: 6px 10px 6px 10px !important;  }
