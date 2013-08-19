@@ -129,8 +129,10 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 #center-highlight { background-color:#F5F5F5; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 100%; padding-top: 40px; padding-bottom: 52px; }
+#header .container a img{position:absolute;};
+
 body#home #header .container { padding-bottom: 0px; }
-#logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
+#logo { float: left; /*margin-top: 37px; */ }
 ul#top-menu { margin-top: 23px; float: left; font-weight: bold; }
 #search { /*float: right;*/ margin-top: 33px; padding-left:5px; }
 div#search-form { position: relative; float: right; margin-top: 30px; }
@@ -143,7 +145,7 @@ ul#main-tabs { position: absolute; top:-102px; left: 0px;width:100%; }
 
 ul#main-tabs li {width:20%; float: left; /*padding: 47px 24px 18px 40px; height: 39px; width: 142px; */ }
 /*ul#main-tabs li.ui-state-active { background:url(images/active-tab2.png) 0px 6px no-repeat; } */
-ul#main-tabs li a { text-decoration: none; /* padding-right: 20px; */ display: block; padding: 47px 9px 18px; height: 39px; width: 188px; text-align: center; }
+ul#main-tabs li a { text-decoration: none; /* padding-right: 20px; */ display: block; padding: 47px 9px 18px; height: 150px; text-align: center; }
 ul#main-tabs li a {background:url(images/Initiatives.png); background-repeat:no-repeat; background-size:contain; background-position:center;}
 
 ul#main-tabs strong { text-transform: uppercase; color: #555555; font-weight: bold; text-shadow: 1px 1px 1px #fff; font-size: 21px; letter-spacing: -1px; }
@@ -216,7 +218,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 
 		ul#top-menu{width:100%;}
 
-		ul#top-menu li { width:14%; text-align: center;margin-left: 0px; display:block; height:47px; /*padding:0 12px 0 0;*/ float:right; background-color:#686c91}
+		ul#top-menu li { width:15%; text-align: center;margin-left: 0px; display:block; height:47px; /*padding:0 12px 0 0;*/ float:right; background-color:#686c91}
 		ul#top-menu a {width:100%;height:100%; line-height: 45px; display:block; font-size: 12px; text-align:center; color: #FFFFFF; background-color:#686c91; text-decoration: none; text-shadow: 0px 0px 0px #000000; display: block; }
 
 
