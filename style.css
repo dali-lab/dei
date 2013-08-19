@@ -129,7 +129,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 #center-highlight { background-color:#F5F5F5; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 100%; padding-top: 40px; padding-bottom: 52px; }
-#header .container a img{position:absolute;};
+#header .container a img{};
 
 body#home #header .container { padding-bottom: 0px; }
 #logo { float: left; /*margin-top: 37px; */ }
