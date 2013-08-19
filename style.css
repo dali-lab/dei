@@ -293,6 +293,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 			#featured .video-slide { background: url(images/box-overlay.png) no-repeat; padding: 6px 5px 16px; }
 
 			div .flex-control-nav li a {background:url(images/UnselectedDot.png) no-repeat !important;}
+			div .flex-control-nav li a.activeSlide{background:url(images/SelectedDot.png) no-repeat !important;}
 
 			/*------------------------------------------------*/
 			/*-------------------[COMMENTS]-------------------*/
