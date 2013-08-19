@@ -450,6 +450,6 @@ h3#reply-title small a { font-size: 12px; letter-spacing: 0px; }
 #featured h2.title span, #featured .description p span, .tab-slide h3.title span { font-family: 'ColaborateMediumRegular', Arial, sans-serif; }
 
 #featured h2.title, #featured .description p, #entries-area h1, #entries-area h2, #entries-area h3, #entries-area h4, #entries-area h5, #entries-area h6, #featured h2.title span, #featured .description p span, .tab-slide h3.title span { }
-.tab-slide h3.title, #footer-widgets h3 { text-shadow: 1px 1px 1px #fff; }
+.tab-slide h3.title, #footer-widgets h3 {  }
 ul#main-tabs span { line-height: 14px; }
 #et_pt_blog, #et-contact, #et-login, #et-search, #sitemap, #et_pt_gallery, #et_pt_portfolio_gallery { clear: both; }
