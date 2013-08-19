@@ -278,7 +278,7 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 			#featured a.join-today span { color:#283d55; display:block; font-size:14px; text-shadow:1px 1px 1px rgba(255,255,255,0.3); letter-spacing: -1px; width:110px; font-size: 14px;}
 			div#controllers { text-align: center; padding-top: 40px; }
 			div#controllers a { background:url(images/SelectedDot.png) no-repeat !important; display:block; height:15px; margin-right:4px; text-indent:-9999px; width:15px; display: inline-block }
-			div#controllers a.activeSlide { background:url(images/UnselectedDot.png) no-repeat ! important; }
+			/*div#controllers a.activeSlide { background:url(images/UnselectedDot.png) no-repeat ! important; }*/
 
 			#featured .description-left .featured-img { float: right; }
 			#featured .description-left .description { float: left; text-align: right; }
