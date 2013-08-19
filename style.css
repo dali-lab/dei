@@ -277,8 +277,8 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 			#featured a.join-today strong { text-transform: uppercase; color: #fff; font-weight: bold; text-shadow: 1px 1px 1px rgba(0,0,0,0.3); font-size: 18px; letter-spacing: -1px; }
 			#featured a.join-today span { color:#283d55; display:block; font-size:14px; text-shadow:1px 1px 1px rgba(255,255,255,0.3); letter-spacing: -1px; width:110px; font-size: 14px;}
 			div#controllers { text-align: center; padding-top: 40px; }
-			div#controllers a { background:url(images/controller1.png) no-repeat; display:block; height:15px; margin-right:4px; text-indent:-9999px; width:15px; display: inline-block }
-			div#controllers a.activeSlide { background:url(images/controller2.png) no-repeat; }
+			div#controllers a { background:url(images/SelectedDot.png) no-repeat; display:block; height:15px; margin-right:4px; text-indent:-9999px; width:15px; display: inline-block }
+			div#controllers a.activeSlide { background:url(images/UnselectedDot.png) no-repeat; }
 
 			#featured .description-left .featured-img { float: right; }
 			#featured .description-left .description { float: left; text-align: right; }
