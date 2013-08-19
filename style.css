@@ -135,7 +135,7 @@ body#home #header .container { padding-bottom: 0px; }
 #logo { float: left; margin-top: -70px; margin-bottom: -120px; }
 
 
-ul#top-menu { margin-top: 23px; float: left; font-weight: bold; }
+ul#top-menu { margin-top: 0px; float: left; font-weight: bold; }
 #search { /*float: right;*/ margin-top: 33px; padding-left:5px; }
 div#search-form { position: relative; float: right; margin-top: 30px; }
 #searchform { background:url(images/search-form.png) no-repeat; height:49px; width:218px; position: absolute; top: -16px; left: -230px; display: none; }
