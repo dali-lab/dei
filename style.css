@@ -130,7 +130,11 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 100%; padding-top: 40px; padding-bottom: 52px; }
 body#home #header .container { padding-bottom: 0px; }
-#logo { float: left; /*margin-top: 37px; */ margin-right: 29px; }
+
+
+#logo { float: left; margin-top: -70px; margin-bottom: -120px; }
+
+
 ul#top-menu { margin-top: 23px; float: left; font-weight: bold; }
 #search { /*float: right;*/ margin-top: 33px; padding-left:5px; }
 div#search-form { position: relative; float: right; margin-top: 30px; }
