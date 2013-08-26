@@ -28,7 +28,7 @@ Template Name: Map Page
     var marker, i;
     var myIcon = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/pal3/icon34.png", null, null, null, new google.maps.Size(30,30));
     marker = new google.maps.Marker({
-      position: new google.maps.LatLng(52.53269103999427, 13.326115608215332),
+      position: new google.maps.LatLng(43.703223, -72.288576),
       map: map,
       icon:  myIcon
     });
