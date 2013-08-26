@@ -31,8 +31,8 @@ var line;
     });
 
  var lineCoordinates = [
-    new google.maps.LatLng(22.291, 153.027),
-    new google.maps.LatLng(18.291, 153.027)
+    new google.maps.LatLng(43.703223, -72.288576),
+    new google.maps.LatLng(43.703223, -72.208576)
   ];
 
   var lineSymbol = {
