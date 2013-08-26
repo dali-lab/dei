@@ -17,7 +17,7 @@ Template Name: Map Page
   <script type="text/javascript">
 
     var map = new google.maps.Map(document.getElementById("global-map"), {
-      zoom: 15,
+      zoom: 17,
       center: new google.maps.LatLng(43.703223, -72.288576),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
