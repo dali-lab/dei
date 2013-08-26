@@ -10,23 +10,23 @@ Template Name: Map Page
 
 <div id="main-content" class="fullwidth">
 
-   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
-  <div id="global-map" style="width:960px; height:520px;"></div>
+ <div id="global-map" style="width:960px; height:520px;"></div>
 
-  <script type="text/javascript">
+ <script type="text/javascript">
 
-var line;
+  var line;
 
-    var map = new google.maps.Map(document.getElementById("global-map"), {
-      zoom: 17,
-      center: new google.maps.LatLng(43.703223, -72.288576),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
+  var map = new google.maps.Map(document.getElementById("global-map"), {
+    zoom: 17,
+    center: new google.maps.LatLng(43.703223, -72.288576),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
 
- var lineCoordinates = [
-    new google.maps.LatLng(43.703223, -72.288576),
-    new google.maps.LatLng(43.703223, -72.208576)
+  var lineCoordinates = [
+  new google.maps.LatLng(43.703223, -72.288576),
+  new google.maps.LatLng(43.703223, -72.208576)
   ];
 
   var lineSymbol = {
@@ -47,7 +47,7 @@ var line;
   animateCircle();
 
 
-function animateCircle() {
+  function animateCircle() {
     var count = 0;
     window.setInterval(function() {
       count = (count + 1) % 200;
@@ -55,33 +55,30 @@ function animateCircle() {
       var icons = line.get('icons');
       icons[0].offset = (count / 2) + '%';
       line.set('icons', icons);
-  }, 20);
-}
+    }, 20);
+  }
 
-function showOverlays() {
-  setAllMap(map);
-}
+  function showOverlays() {
+    setAllMap(map);
+  }
 
-function clearOverlays() {
-  setAllMap(null);
-}
+  function clearOverlays() {
+    setAllMap(null);
+  }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', initialize);
 
-     </script>
+</script>
 
-
-
- <div id="panel" style="float:right;">
-      <input onclick="clearOverlays();" type=button value="Hide Overlays">
-      <input onclick="showOverlays();" type=button value="Show All Overlays">
-      <input onclick="deleteOverlays();" type=button value="Delete Overlays">
-    </div>
+<button onclick="clearOverlays()">Hide Overlays</button>
+<button onclick="showOverlays()">Show All Overlays</button>
+<button onclick="deleteOverlays()">Delete Overlays</button>
 
 
-   </div> <!-- end #main-content -->
+
+</div> <!-- end #main-content -->
 
 
 
 
-   <?php get_footer(); ?>
+<?php get_footer(); ?>
