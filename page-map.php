@@ -12,7 +12,7 @@ Template Name: Map Page
 
    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
-   <div id="panel">
+   <div id="panel" style="float:right;">
       <input onclick="clearOverlays();" type=button value="Hide Overlays">
       <input onclick="showOverlays();" type=button value="Show All Overlays">
       <input onclick="deleteOverlays();" type=button value="Delete Overlays">
