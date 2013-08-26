@@ -23,6 +23,17 @@ Template Name: Map Page
     });
     var bounds = new google.maps.LatLngBounds();
 
+    var infowindow = new google.maps.InfoWindow();
+    
+    var marker, i;
+
+    bounds.extend(marker.position);
+    google.maps.event.addListener(marker, "mousedown", (function(marker, i) {
+      return function() {
+        infowindow.setContent("<p style='width:95%'><a class='romeluv-google-map-link' href=\"http://postbeschwerde.de/?p=121\"'><b>Von Kundenverhöhnung und verschwundenen Päckchen</b></a><br /> <i>DHL</i>  <br /><b>Sickingenstraße 7, 10553 Berlin </b><br /><br /></p>");
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
 
 
        //  Fit these bounds to the map
