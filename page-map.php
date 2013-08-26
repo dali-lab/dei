@@ -70,7 +70,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
      </script>
 
-<button type="button">Click Me!</button>
+
 
  <div id="panel" style="float:right;">
       <input onclick="clearOverlays();" type=button value="Hide Overlays">
