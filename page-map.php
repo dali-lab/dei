@@ -45,7 +45,7 @@ var line;
   });
 
   animateCircle();
-}
+
 
 function animateCircle() {
     var count = 0;
@@ -59,6 +59,7 @@ function animateCircle() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
      </script>
 
 
