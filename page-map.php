@@ -10,8 +10,8 @@ Template Name: Map Page
 
 <div id="main-content" class="fullwidth">
 
-  <script src="http://maps.google.com/maps/api/js?sensor=false"  type="text/javascript"></script>
-
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+   
   <div id="global-map" style="width:960px; height:520px;"></div>
 
   <script type="text/javascript">
