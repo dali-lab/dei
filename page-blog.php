@@ -119,7 +119,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 					<?php endwhile; endif; ?>
 					</div> <!-- end #content-area -->
 
-					<?php if (!$fullwidth) get_sidebar(); ?>
+					<?php get_sidebar(); ?>
 				</div> <!-- end #entries-area-content -->
 			</div> <!-- end #entries-area-inner -->
 		</div> <!-- end #entries-area -->
