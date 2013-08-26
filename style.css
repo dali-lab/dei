@@ -169,6 +169,8 @@ ul#main-tabs span { color:#000000; display:block; font-size:18px; text-shadow:1p
 		.gallery-area .et_pt_item_image span.overlay { top: 4px !important; left: 4px !important; }
 		.gallery-area .et_pt_gallery_entry { padding-bottom: 6px !important; }
 
+		#entries-area {text-align: left; margin: 0 auto; width: 960px; position: relative;}
+
 		#entries-area { background: url(images/content-main-bg.png) repeat-y top right; }
 		#entries-area-content { background: url(images/content-area-topbg.jpg) no-repeat top right; padding-bottom: 40px; }
 
