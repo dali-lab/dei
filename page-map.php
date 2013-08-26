@@ -18,7 +18,7 @@ Template Name: Map Page
   <script type="text/javascript">
 
     var map = new google.maps.Map(document.getElementById("romeluv-global-map"), {
-      zoom: 17,
+      zoom: 8,
 
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
