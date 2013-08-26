@@ -12,7 +12,7 @@ Template Name: Map Page
 
   <script src="http://maps.google.com/maps/api/js?sensor=false"  type="text/javascript"></script>
 
-  
+  <div id="global-map" style="width:960px height:520px;"></div>
 
   <script type="text/javascript">
 
@@ -22,18 +22,13 @@ Template Name: Map Page
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
-   
-
-  google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
+google.maps.event.addDomListener(window, 'load', initialize);
+     </script>
 
 
-<div id="global-map" style="width:960px; height:520px;"></div>
-
-</div> <!-- end #main-content -->
+   </div> <!-- end #main-content -->
 
 
 
 
-<?php get_footer(); ?>
+   <?php get_footer(); ?>
