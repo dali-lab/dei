@@ -126,6 +126,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 
 .container.clearfix{width:100%;}
 
+.container a {position:relative; z-index:999;}
+
 #center-highlight { background-color:#F5F5F5; }
 .container { text-align: left; margin: 0 auto; width: 100%; position: relative; }
 #header .container { width: 100%; padding-top: 0px; padding-bottom: 52px; }
@@ -133,10 +135,10 @@ body#home #header .container { padding-bottom: 0px; }
 
 #main-content{margin-top:-52px;}
 
-#logo { float: left; margin-top: -70px; margin-bottom: -120px; }
+#logo { float: left; margin-top: -70px; margin-bottom: -120px; position:relative;}
 
 
-ul#top-menu { margin-top: 0px; float: left; font-weight: bold; }
+ul#top-menu { margin-top: 0px; float: left; font-weight: bold; position: relative; z-index: 1; }
 #search { /*float: right;*/ margin-top: 33px; padding-left:5px; }
 div#search-form { position: relative; float: right; margin-top: 30px; }
 #searchform { background:url(images/search-form.png) no-repeat; height:49px; width:218px; position: absolute; top: -16px; left: -230px; display: none; }
