@@ -37,7 +37,17 @@
 	<div id="center-highlight">
 		<div id="header">
 			<div class="container clearfix">
-
+				<?php
+					global $shortname, $default_colorscheme;
+					$colorSchemePath = '';
+					$colorScheme = get_option($shortname . '_color_scheme');
+					if ($colorScheme <> $default_colorscheme) $colorSchemePath = strtolower(esc_attr($colorScheme)) . '/';
+				?>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<?php $logo = (get_option('nova_logo') <> '') ? get_option('nova_logo') : get_template_directory_uri().'/images/'.$colorSchemePath.'logo.png'; ?>
+					<img src="<?php echo esc_attr($logo); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" id="logo"/>
+				</a>
+				<?php do_action('et_header_menu'); ?>
 				<?php $menuClass = 'nav';
 				$menuID = 'top-menu';
 				$primaryNav = '';
@@ -56,18 +66,6 @@
 					</ul> <!-- end ul#nav -->
 				<?php }
 				else echo($primaryNav); ?>
-
-								<?php
-					global $shortname, $default_colorscheme;
-					$colorSchemePath = '';
-					$colorScheme = get_option($shortname . '_color_scheme');
-					if ($colorScheme <> $default_colorscheme) $colorSchemePath = strtolower(esc_attr($colorScheme)) . '/';
-				?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<?php $logo = (get_option('nova_logo') <> '') ? get_option('nova_logo') : get_template_directory_uri().'/images/'.$colorSchemePath.'logo.png'; ?>
-					<img src="<?php echo esc_attr($logo); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" id="logo"/>
-				</a>
-				<?php do_action('et_header_menu'); ?>
 
 			</div> <!-- end .container -->
 		</div> <!-- end #header -->
