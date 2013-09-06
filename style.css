@@ -124,6 +124,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*---------------[MAIN LAYOUT INFO]---------------*/
 /*------------------------------------------------*/
 
+#tab-title{margin-top:175px;}
+
 .container.clearfix{width:100%;}
 
 .container a {position:relative; z-index:999;}
