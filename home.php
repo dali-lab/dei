@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <?php if ( is_home() && get_option('nova_featured') == 'false' ) { ?>
-	<div class="et_pad"></div>
+<div class="et_pad"></div>
 <?php } ?>
 
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
@@ -11,52 +11,52 @@
 
 <div id="category-name"> 
 
-					<p style="color:#21B000;text-align: center;font-size:50px; color:#126a52">What is the Dartmouth Energy Initiative?<br><br></p>
-					<p style="text-align:center;font-size:20px; padding-bottom:20px; #595959">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-            
-            
-							<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
+	<p style="color:#21B000;text-align: center;font-size:50px; color:#126a52">What is the Dartmouth Energy Initiative?<br><br></p>
+	<p style="text-align:center;font-size:20px; padding-bottom:20px; #595959">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+		
+		
+		<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
 
 
-        <hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-45px;" >
+		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-45px;" >
 
-        </div>
+	</div>
 
 
 	<div id="main-area">
-	<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 
-<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 		<div class="container clearfix">
 			<div id="services">
 				<ul id="main-tabs">
 
-						
+					
 
 					<?php
-						$pagesContent = array();
-						$i=0;
+					$pagesContent = array();
+					$i=0;
 
-						$home_pages_num = count(get_option('nova_home_pages'));
+					$home_pages_num = count(get_option('nova_home_pages'));
 
-						$arr = array('post_type' => 'page',
-									'orderby' => 'menu_order',
-									'order' => 'ASC',
-									'post__in' => (array) array_map( 'intval', get_option('nova_home_pages') ),
-									'posts_per_page' => (int) $home_pages_num );
+					$arr = array('post_type' => 'page',
+						'orderby' => 'menu_order',
+						'order' => 'ASC',
+						'post__in' => (array) array_map( 'intval', get_option('nova_home_pages') ),
+						'posts_per_page' => (int) $home_pages_num );
 
-						query_posts($arr);
+					query_posts($arr);
 					?>
 					<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
 						<?php
-							$hash = 'service_' . strtolower( preg_replace( '/ /','_', get_the_title() ) );
-							$et_nova_settings = maybe_unserialize( get_post_meta( get_the_ID(),'et_nova_settings',true ) );
+						$hash = 'service_' . strtolower( preg_replace( '/ /','_', get_the_title() ) );
+						$et_nova_settings = maybe_unserialize( get_post_meta( get_the_ID(),'et_nova_settings',true ) );
 
-							$tab_title = isset( $et_nova_settings['et_service_tabtitle'] ) && !empty($et_nova_settings['et_service_tabtitle']) ? $et_nova_settings['et_service_tabtitle'] : get_the_title();
-							$tab_subtitle = isset( $et_nova_settings['et_service_tab_subtitle'] ) && !empty($et_nova_settings['et_service_tab_subtitle']) ? $et_nova_settings['et_service_tab_subtitle'] : '';
+						$tab_title = isset( $et_nova_settings['et_service_tabtitle'] ) && !empty($et_nova_settings['et_service_tabtitle']) ? $et_nova_settings['et_service_tabtitle'] : get_the_title();
+						$tab_subtitle = isset( $et_nova_settings['et_service_tab_subtitle'] ) && !empty($et_nova_settings['et_service_tab_subtitle']) ? $et_nova_settings['et_service_tab_subtitle'] : '';
 						?>
 
 						<li><a id="<?php echo esc_html($tab_title); ?>" href="#<?php #echo $hash; ?>"><div id="tab-title"><span id="tab-word"><?php echo esc_html($tab_title); ?></span></div><?php if ($tab_subtitle != '') { ?><span><?php echo esc_html($tab_subtitle); ?></span><?php } ?></a></li>
@@ -92,64 +92,64 @@
 
 
 				<?php for($i=0; $i < $home_pages_num; $i++) { ?>
-					<div class="tab-slide clearfix" id="<?php echo esc_attr($pagesContent[$i]['hash']); ?>">
+				<div class="tab-slide clearfix" id="<?php echo esc_attr($pagesContent[$i]['hash']); ?>">
 
-						<?php if (!$pagesContent[$i]['portfolio']) { ?>
-							<div class="content-area clearfix">
-								<h3 class="title"><?php echo wp_kses( $pagesContent[$i]['title'], array( 'span' => array() ) ); ?></h3>
-								<?php if ($pagesContent[$i]['thumbnail'] <> '' && get_option('nova_page_thumbnails') == 'on') { ?>
-									<div class="thumbnail">
-										<?php print_thumbnail($pagesContent[$i]['thumbnail'], $pagesContent[$i]['use_timthumb'], $pagesContent[$i]['title'], $width, $height, ''); ?>
-										<span class="overlay2"></span>
-									</div> <!-- .thumbnail -->
-								<?php } ?>
-
-								<?php echo $pagesContent[$i]['content']; ?>
-
-								<a href="<?php echo esc_url($pagesContent[$i]['link']); ?>" class="readmore"><span><?php esc_html_e('read more','Nova'); ?></span></a>
-							</div> <!-- .content-area -->
-						<?php } else { ?>
-							<div class="gallery-area clearfix">
-								<?php $j = 0; ?>
-								<?php query_posts("posts_per_page=".$pagesContent[$i]['et_service_postsnum']."&cat=".implode(",",$pagesContent[$i]['portfolio_categories'])); ?>
-									<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
-										<?php
-											$thumb = '';
-											$width2 = 207;
-											$height2 = 136;
-											$classtext = 'portfolio';
-											$titletext = get_the_title();
-											$thumbnail = get_thumbnail($width2,$height2,$classtext,$titletext,$titletext,true,'Gallery');
-
-											$thumb = $thumbnail['thumb']; ?>
-										<?php if ($thumb <> '') { ?>
-											<?php $j++; ?>
-											<div class="et_pt_gallery_entry">
-												<div class="et_pt_item_image">
-													<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width2, $height2, $classtext); ?>
-													<span class="overlay"></span>
-
-													<a class="zoom-icon fancybox" title="<?php the_title(); ?>" rel="gallery" href="<?php echo esc_attr($thumbnail['fullpath']); ?>"><?php esc_html_e('Zoom in','Nova'); ?></a>
-													<a class="more-icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Nova'); ?></a>
-												</div> <!-- end .et_pt_item_image -->
-											</div> <!-- end .et_pt_gallery_entry -->
-										<?php } ?>
-									<?php endwhile; endif; wp_reset_query(); ?>
-							</div> <!-- .gallery-area -->
-
-							<?php if ( $pagesContent[$i]['et_service_postsnum'] <> 100 ) { ?>
-								<a href="<?php echo esc_url($pagesContent[$i]['link']); ?>" class="readmore"><span><?php esc_html_e('read more','Nova'); ?></span></a>
-							<?php } ?>
+					<?php if (!$pagesContent[$i]['portfolio']) { ?>
+					<div class="content-area clearfix">
+						<h3 class="title"><?php echo wp_kses( $pagesContent[$i]['title'], array( 'span' => array() ) ); ?></h3>
+						<?php if ($pagesContent[$i]['thumbnail'] <> '' && get_option('nova_page_thumbnails') == 'on') { ?>
+						<div class="thumbnail">
+							<?php print_thumbnail($pagesContent[$i]['thumbnail'], $pagesContent[$i]['use_timthumb'], $pagesContent[$i]['title'], $width, $height, ''); ?>
+							<span class="overlay2"></span>
+						</div> <!-- .thumbnail -->
 						<?php } ?>
-					</div> <!-- end .tab-slide -->
+
+						<?php echo $pagesContent[$i]['content']; ?>
+
+						<a href="<?php echo esc_url($pagesContent[$i]['link']); ?>" class="readmore"><span><?php esc_html_e('read more','Nova'); ?></span></a>
+					</div> <!-- .content-area -->
+					<?php } else { ?>
+					<div class="gallery-area clearfix">
+						<?php $j = 0; ?>
+						<?php query_posts("posts_per_page=".$pagesContent[$i]['et_service_postsnum']."&cat=".implode(",",$pagesContent[$i]['portfolio_categories'])); ?>
+						<?php if (have_posts()) : while(have_posts()) : the_post(); ?>
+							<?php
+							$thumb = '';
+							$width2 = 207;
+							$height2 = 136;
+							$classtext = 'portfolio';
+							$titletext = get_the_title();
+							$thumbnail = get_thumbnail($width2,$height2,$classtext,$titletext,$titletext,true,'Gallery');
+
+							$thumb = $thumbnail['thumb']; ?>
+							<?php if ($thumb <> '') { ?>
+							<?php $j++; ?>
+							<div class="et_pt_gallery_entry">
+								<div class="et_pt_item_image">
+									<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width2, $height2, $classtext); ?>
+									<span class="overlay"></span>
+
+									<a class="zoom-icon fancybox" title="<?php the_title(); ?>" rel="gallery" href="<?php echo esc_attr($thumbnail['fullpath']); ?>"><?php esc_html_e('Zoom in','Nova'); ?></a>
+									<a class="more-icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Nova'); ?></a>
+								</div> <!-- end .et_pt_item_image -->
+							</div> <!-- end .et_pt_gallery_entry -->
+							<?php } ?>
+						<?php endwhile; endif; wp_reset_query(); ?>
+					</div> <!-- .gallery-area -->
+
+					<?php if ( $pagesContent[$i]['et_service_postsnum'] <> 100 ) { ?>
+					<a href="<?php echo esc_url($pagesContent[$i]['link']); ?>" class="readmore"><span><?php esc_html_e('read more','Nova'); ?></span></a>
+					<?php } ?>
+					<?php } ?>
+				</div> <!-- end .tab-slide -->
 				<?php } ?>
 
-		
+				
 			</div> <!-- #services -->
 
 		</div> <!-- end .container -->
 	</div> <!-- end #main-area -->
-<?php } else { ?>
+	<?php } else { ?>
 	<div id="home-blogstyle">
 		<div id="main-content">
 			<div class="container clearfix">
@@ -167,6 +167,6 @@
 			</div> <!-- end .container -->
 		</div> <!-- end #main-content -->
 	</div> <!-- end #home-blogstyle -->
-<?php } ?>
+	<?php } ?>
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
