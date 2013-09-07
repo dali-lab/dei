@@ -157,6 +157,8 @@ ul#main-tabs li a {background:url(images/Initiatives.png); background-repeat:no-
 
 a#History {background:url(images/History.png) !important; background-repeat:no-repeat !important; background-size:contain !important; background-position:center !important;}
 a[id='Campus Map']{ background:url(images/CampusMap.png) !important; background-repeat:no-repeat !important; background-size:contain !important; background-position:center !important;}
+a#Metrics {background:url(images/Metrics.png) !important; background-repeat:no-repeat !important; background-size:contain !important; background-position:center !important;}
+a[id='Follow the Fuel']{ background:url(images/FollowtheFuel.png) !important; background-repeat:no-repeat !important; background-size:contain !important; background-position:center !important;}
 
 
 
