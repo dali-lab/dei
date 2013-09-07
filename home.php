@@ -10,11 +10,11 @@
 <div id="category-name"> 
 
 					<p style="color:#21B000;text-align: center;font-size:50px;">What is the Dartmouth Energy Initiative?<br><br></p>
-					<p style="text-align:center;font-size:18px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+					<p style="text-align:center;font-size:20px; padding-bottom:20px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
             
             
-							<h4><p style="font-weight:lighter; text-align:center;">Choose an icon below for more information</p></h4>
+							<h4><p style="font-weight:lighter; text-align:center; padding-bottom:75px;">Choose an icon below for more information</p></h4>
         </div>
 
 	<div id="main-area">
@@ -44,7 +44,7 @@
 							$tab_subtitle = isset( $et_nova_settings['et_service_tab_subtitle'] ) && !empty($et_nova_settings['et_service_tab_subtitle']) ? $et_nova_settings['et_service_tab_subtitle'] : '';
 						?>
 
-						<li><a href="#<?php #echo $hash; ?>"><div id="tab-title"><?php echo esc_html($tab_title); ?></div><?php if ($tab_subtitle != '') { ?><span><?php echo esc_html($tab_subtitle); ?></span><?php } ?></a></li>
+						<li><a href="#<?php #echo $hash; ?>"><div id="tab-title"><span id="tab-word"><?php echo esc_html($tab_title); ?></span></div><?php if ($tab_subtitle != '') { ?><span><?php echo esc_html($tab_subtitle); ?></span><?php } ?></a></li>
 
 						<?php $pagesContent[$i]['hash'] = $hash;
 						global $more; $more=0;
