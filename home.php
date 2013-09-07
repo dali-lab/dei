@@ -23,7 +23,7 @@
 
 	</div>
 
-	<hr style= "position:absolute; margin-top:105px;align:center; width:100%; border: 1px solid #686c91; margin-bottom:20px;" >
+	<hr style= "position:absolute; margin-top:110px;align:center; width:100%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 	<div id="main-area">
 
