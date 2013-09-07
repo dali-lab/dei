@@ -7,7 +7,7 @@
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
 
 
-<hr style= "align:center; width:80%; border: 5px solid #000;" >
+<hr style= "align:center; width:80%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 <div id="category-name"> 
 
