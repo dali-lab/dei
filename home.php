@@ -7,6 +7,10 @@
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
 
 
+<hr style="display: block; height: 1px;
+    border: 0; border-top: 1px solid #686c91;
+    margin: 1em 0; padding: 0;">
+
 <div id="category-name"> 
 
 					<p style="color:#21B000;text-align: center;font-size:50px; color:#126a52">What is the Dartmouth Energy Initiative?<br><br></p>
