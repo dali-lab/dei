@@ -44,7 +44,7 @@
 							$tab_subtitle = isset( $et_nova_settings['et_service_tab_subtitle'] ) && !empty($et_nova_settings['et_service_tab_subtitle']) ? $et_nova_settings['et_service_tab_subtitle'] : '';
 						?>
 
-						<li><a href="#<?php #echo $hash; ?> id= <?php echo esc_html($tab_title); ?>;"><div id="tab-title"><span id="tab-word"><?php echo esc_html($tab_title); ?></span></div><?php if ($tab_subtitle != '') { ?><span><?php echo esc_html($tab_subtitle); ?></span><?php } ?></a></li>
+						<li><a id="<?php echo esc_html($tab_title); ?>" href="#<?php #echo $hash; ?>"><div id="tab-title"><span id="tab-word"><?php echo esc_html($tab_title); ?></span></div><?php if ($tab_subtitle != '') { ?><span><?php echo esc_html($tab_subtitle); ?></span><?php } ?></a></li>
 
 						<?php $pagesContent[$i]['hash'] = $hash;
 						global $more; $more=0;
