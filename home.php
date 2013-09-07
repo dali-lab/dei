@@ -25,15 +25,16 @@
 
 
 	<div id="main-area">
-		<div class="container clearfix">
-			<div id="services">
-				<ul id="main-tabs">
-
-						<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+	<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 
 <hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
+		<div class="container clearfix">
+			<div id="services">
+				<ul id="main-tabs">
+
+						
 
 					<?php
 						$pagesContent = array();
