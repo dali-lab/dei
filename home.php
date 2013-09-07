@@ -7,9 +7,9 @@
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
 
 
-<hr style="display: block; height: 4px;
+<hr style="display: block; hr size="10";
     border: 0; border-top: 1px solid #686c91;
-    margin: 1em 0; padding: 0; width:90%;">
+    margin: 1em 0; padding: 0; width:100%;">
 
 <div id="category-name"> 
 
