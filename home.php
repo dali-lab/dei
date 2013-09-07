@@ -19,19 +19,19 @@
 		<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
 
 
-		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-60px;" >
+		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:70px; margin-top:-60px;" >
 
 	</div>
 
 	<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
-	
+
 	<div id="main-area">
 
 
 
 
 		<div class="container clearfix">
-			<div id="services">
+			<div id="services" style="margin-top:-30px;">
 				<ul id="main-tabs">
 
 
