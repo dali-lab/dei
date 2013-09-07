@@ -153,9 +153,9 @@ ul#main-tabs { position: absolute; top:-225px; left: 0px;width:100%; margin-top:
 ul#main-tabs li {width:20%; float: left; /*padding: 47px 24px 18px 40px; height: 39px; width: 142px; */ }
 /*ul#main-tabs li.ui-state-active { background:url(images/active-tab2.png) 0px 6px no-repeat; } */
 ul#main-tabs li a { text-decoration: none; /* padding-right: 20px; */ display: block; padding: 47px 9px 18px; height: 150px; text-align: center; }
-ul#main-tabs li a {background-repeat:no-repeat; background-size:contain; background-position:center;}
+ul#main-tabs li a {background:url(images/Initiatives.png); background-repeat:no-repeat; background-size:contain; background-position:center;}
 
-ul#man-tabs li a:last-child{background:url(images/History.png) !important;}
+ul#man-tabs li:last-child a {background:url(images/History.png);}
 
 
 ul#main-tabs strong { text-transform: uppercase; color: #555555; font-weight: bold; text-shadow: 1px 1px 1px #fff; font-size: 21px; letter-spacing: -1px; }
