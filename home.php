@@ -14,27 +14,27 @@
 	<p style="color:#21B000;text-align: center;font-size:50px; color:#126a52">What is the Dartmouth Energy Initiative?<br><br></p>
 	<p style="text-align:center;font-size:20px; padding-bottom:20px; #595959">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
 		"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-		
-		
+
+
 		<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
 
 
-		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-45px;" >
+		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-60px;" >
 
 	</div>
 
-
+	<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+	
 	<div id="main-area">
-		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 
-		<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+
 
 		<div class="container clearfix">
 			<div id="services">
 				<ul id="main-tabs">
 
-					
+
 
 					<?php
 					$pagesContent = array();
@@ -144,7 +144,7 @@
 				</div> <!-- end .tab-slide -->
 				<?php } ?>
 
-				
+
 			</div> <!-- #services -->
 
 		</div> <!-- end .container -->
