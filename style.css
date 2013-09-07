@@ -147,7 +147,7 @@ div#search-form { position: relative; float: right; margin-top: 30px; }
 #searchinput { background: none; border: none; width: 170px; font-size: 12px; /*float: left;*/ color: #555555; margin-top: 14px; padding-left: 17px; padding-top: 0; }
 
 #main-area, #footer-widgets { background: #e9e8e8 url(images/main-area.png) repeat-x top left; border-bottom: 1px solid #cdcccc; }
-ul#main-tabs { position: absolute; top:-225px; left: 0px;width:100%; margin-top: -75px; }
+ul#main-tabs { position: absolute; top:-225px; left: 0px;width:100%; margin-top: -65px; }
 
 
 ul#main-tabs li {width:20%; float: left; /*padding: 47px 24px 18px 40px; height: 39px; width: 142px; */ }
