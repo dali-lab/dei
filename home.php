@@ -19,7 +19,7 @@
 							<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
 
 
-        <hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+        <hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:35px; margin-top:-45px;" >
 
         </div>
 
