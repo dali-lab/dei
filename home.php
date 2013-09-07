@@ -7,7 +7,7 @@
 <?php if ( get_option('nova_blog_style') == 'false' ) { ?>
 
 
-<hr style= "align:center; width:80%; border: 1px solid #686c91; margin-bottom:20px;" >
+<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
 
 <div id="category-name"> 
 
@@ -18,6 +18,9 @@
             
 							<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
         </div>
+
+        <hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+
 
 	<div id="main-area">
 		<div class="container clearfix">
@@ -130,6 +133,12 @@
 						<?php } ?>
 					</div> <!-- end .tab-slide -->
 				<?php } ?>
+
+				<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+
+
+<hr style= "align:center; width:90%; border: 1px solid #686c91; margin-bottom:20px;" >
+
 			</div> <!-- #services -->
 
 		</div> <!-- end .container -->
