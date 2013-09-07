@@ -14,7 +14,7 @@
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
             
             
-							<h4><p style="font-weight:lighter; text-align:center; padding-bottom:75px; color:#126a52">Choose an icon below for more information</p></h4>
+							<h4><p style="text-decoration:underline; text-align:center; padding-bottom:75px; color:#126a52; font-size:20px;">Choose an icon below for more information</p></h4>
         </div>
 
 	<div id="main-area">
