@@ -21,15 +21,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 
 <div id="main-content"<?php if ($fullwidth) echo ' class="fullwidth"'; ?>>
 	<div class="container clearfix">
-		<div id="entries-area">
-			<div id="entries-area-inner">
-				<div id="entries-area-content" class="clearfix">
-					<div id="content-area">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php get_template_part('includes/breadcrumbs'); ?>
-
-						<div class="entry post clearfix">
-							<h1 class="title"><?php the_title(); ?></h1>
+	<h1 class="title"><?php the_title(); ?></h1>
 							<?php get_template_part('includes/postinfo'); ?>
 
 							<?php if (get_option('nova_page_thumbnails') == 'on') { ?>
@@ -57,6 +49,15 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 							<?php the_content(); ?>
 							<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','Nova').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
+		<div id="entries-area">
+			<div id="entries-area-inner">
+				<div id="entries-area-content" class="clearfix">
+					<div id="content-area">
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+						<?php get_template_part('includes/breadcrumbs'); ?>
+
+						<div class="entry post clearfix">
+							
 							<div id="et_pt_blog">
 								<?php $cat_query = '';
 								if ( !empty($blog_cats) ) $cat_query = '&cat=' . implode(",", $blog_cats);
