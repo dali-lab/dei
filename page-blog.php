@@ -21,7 +21,7 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
 
 <div id="main-content"<?php if ($fullwidth) echo ' class="fullwidth"'; ?>>
 	<div class="container clearfix">
-	<h1 class="title"><?php the_title(); ?></h1>
+	<h1 class="page-title"><?php the_title(); ?></h1>
 							<?php get_template_part('includes/postinfo'); ?>
 
 							<?php if (get_option('nova_page_thumbnails') == 'on') { ?>
