@@ -59,6 +59,11 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .init-text{margin-left:180px; margin-top:-30px;}
 
+.fuel-logo{margin-left: 100px !important; margin-top:50px;}
+
+.big-fuel{font-size: 100px; margin-top: 125px; font-weight:bold; color:#ef9a4a; margin-left: 20px;}
+
+.fuel-text{margin-left:180px; margin-top:-30px;}
 
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
