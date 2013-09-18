@@ -38,8 +38,9 @@ $et_ptemplate_blog_perpage = isset( $et_ptemplate_settings['et_ptemplate_blog_pe
   });
 
   var lineCoordinates = [
-  new google.maps.LatLng(43.703223, -72.288576),
-  new google.maps.LatLng(43.703223, -72.208576)
+  new google.maps.LatLng(43.702075, -72.286761),
+  new google.maps.LatLng(43.702604, -72.287367),
+  new google.maps.LatLng(43.705160, -72.287785)
   ];
 
   var lineSymbol = {
