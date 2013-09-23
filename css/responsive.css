@@ -99,7 +99,9 @@ embed, iframe, object, video { max-width: 100%; }
 
 @media only screen and ( min-width: 768px ) and ( max-width: 960px ) {
 	body { min-width: 0; }
-	.container, #header .container { width: 748px; }
+	/*.container, #header .container { width: 748px; }*/
+	.container{width: 748px;}
+
 		#featured h2.title { font-size: 50px; line-height: 48px; }
 		ul#main-tabs { top:-96px; }
 			ul#main-tabs li.ui-state-active { background:url(../images/active-tab2-768.png) 0 0 no-repeat; }
